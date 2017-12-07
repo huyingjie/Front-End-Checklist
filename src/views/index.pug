@@ -27,6 +27,11 @@ block main
   .s-main__section.s-main__checklist
 
     +checklist-section({
+      dataSection: _items.metadata,
+      sectionTitle: "Metadata"
+    })
+  
+    +checklist-section({
       dataSection: _items.head,
       sectionTitle: "Head"
     })
